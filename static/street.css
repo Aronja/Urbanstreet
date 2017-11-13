@@ -1,0 +1,144 @@
+html{
+  height: 100%
+}
+
+body {
+  background-image:
+  url("images/street/street.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+
+.tooltip {
+    position: relative;;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    top: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.button-box {
+  margin: 300px auto;
+  width: 120px;
+  height: 80px;
+  background-color: yellow;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: center;
+  border: 5px solid blue
+}
+
+.button-box > a{
+  padding-top: 25%;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: center;
+  height: 100%;
+  display: block;
+}
+
+.button{
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  font-weight:bold;
+}
+
+.top-object{
+  background-color: yellow;
+  z-index: 999;
+  width: 100%;
+  height: 200px;
+}
+
+
+.tree {
+  width: 150px;
+  height: 150px;
+}
+
+#tree {
+  position: absolute;
+  top: 50px;
+}
+
+#tree_3 {
+  position: absolute;
+  top: 50px;
+  right: 80px;
+}
+
+#tree_1 {
+  position: absolute;
+  bottom: 80px;
+  left: 120px;
+}
+
+#tree_4 {
+  position: absolute;
+  bottom: 50px;
+  left: 230px;
+}
+
+
+#tree_2 {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+
+#tree_5 {
+  position: absolute;
+  top: 40px;
+  left: 220px;
+}
+
+.house {
+  width: 200px;
+  height: auto;
+  position: absolute;
+}
+
+#Coffee_place {
+  top: 35px;
+  left: 400px;
+}
+
+#Shop {
+  top: 0px;
+  left: 650px;
+}
+
+#HQ {
+  top: 530px;
+  left: 800px;
+}
+
+#Theater {
+  top: 534px;
+  left: 500px;
+}
+
+#Bakery {
+  top: 50px;
+  left: 900px;
+}

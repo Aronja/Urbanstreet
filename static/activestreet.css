@@ -1,0 +1,199 @@
+.row {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+  z-index:1;
+
+}
+
+.left {
+  background-color: green;
+}
+
+.right {
+  background-color: green;
+}
+
+.middle {
+  background-color: white;
+}
+
+
+.house{
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+}
+
+  /*html{
+    height: 100%;
+  }
+  body{
+    height: 100%;
+  }*/
+
+.frame {
+  height: 650px;
+  width: 1404px;
+  border-left: 10px solid blue;
+  border-right: 10px solid blue;
+}
+
+.top-object{
+  background-color: yellow;
+  position: relative;
+  z-index: 800;
+  width: 1424px;
+  height: 200px;
+  border-bottom: 10px solid blue;
+
+}
+
+.bottom-object{
+  background-color: yellow;
+  position: relative;
+  z-index: 800;
+  width: 1424px;
+  height: 200px;
+  border-top: 10px solid blue;
+}
+
+.animation1 {
+  position:absolute;
+  display:block;
+  top: 0px;
+  left: 150px;
+
+
+        animation: 20s linear 0s move_HQ;
+}
+      @keyframes move_HQ { from {top: 0%} to {top: 115%; }  }
+
+
+.animation2 {
+  position:absolute;
+  display:block;
+  top: -150px;
+  left: 150px;
+  z-index: 10;
+        animation: 20s linear 0s move_Shop;
+        animation-delay: 10s;
+
+  }
+      @keyframes move_Shop { from {top: 0%} to {top: 115%; }  }
+
+.animation3 {
+  position:absolute;
+  display:block;
+  top: 0px;
+  left: 150px;
+  z-index: 10;
+        animation: 20s linear 0s move_Theater;
+        animation-delay: 20s;
+
+  }
+      @keyframes move_Theater { from {top: 0%} to {top: 115%; }  }
+
+.animation4 {
+  position:absolute;
+  display:block;
+  top: 0px;
+  left: 1100px;
+  z-index: 10;
+        animation: 20s linear 0s move_barrier;
+        animation-delay: 5s;
+
+  }
+      @keyframes move_barrier { from {top: 0%} to {top: 115%; }  }
+
+.animation5 {
+  position:absolute;
+  display:block;
+  top: -300px;
+  left: 1100px;
+  z-index: 10;
+        animation: 20s linear 0s move_danger;
+        animation-delay: 15s;
+
+  }
+      @keyframes move_danger { from {top: 0%} to {top: 115%; }  }
+
+.animation6 {
+  position:absolute;
+  display:block;
+  top: -300px;
+  left: 1100px;
+  z-index: 10;
+        animation: 20s linear 0s move_circle forwards;
+        animation-delay: 25s;
+
+  }
+      @keyframes move_circle { from {top: 0%} to {top: 80%; }  }
+
+#line_2{
+  align-self: center;
+  z-index: 999;
+  margin-top: 0px;
+  margin-left: 195px;
+}
+
+.path-vert {
+  stroke-dasharray: 50;
+  animation: draw1 5s linear infinite;
+}
+
+
+@keyframes draw1 {
+
+  to {
+    stroke-dashoffset: -300;
+  }
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 150px;
+  text-align: center;
+  background: yellow;
+  border: 5px solid blue;
+  font-weight:bold;
+}
+
+.animation6 > a {
+  text-decoration: none;
+  color: blue;
+}
+
+
+.button-box-active {
+  margin: -100px 82%;
+  width: 120px;
+  height: 80px;
+  background-color: yellow;
+  border-radius: 20px;
+  text-align: center;
+  vertical-align: top;
+  border: 5px solid blue
+  display: flex;
+  z-index: 999;
+}
+
+.button-box-active > a {
+  padding-top: 25%;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: top;
+  height: 100%;
+  display: flex;
+  z-index: 999;
+}
+
+.button_end{
+  text-align: center;
+  color: blue;
+  text-decoration: none;
+  font-weight:bold;
+}

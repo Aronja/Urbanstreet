@@ -1,0 +1,41 @@
+body{
+	background-image: url("images/theatre/empty_theatre.jpeg");
+	background-repeat: no-repeat;
+	/*background-size: 1400px 800px;*/
+	background-size: cover;
+	
+}
+
+/*
+#video1{
+	margin-top: 90px;
+	margin-right: 120px;
+}
+
+#video2{
+	margin-top: 90px;
+	margin-left: 150px;
+}
+*/
+
+#videos{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+iframe{
+	margin: 5% 2%;
+}
+h1{
+	font-size: 80px;
+	color: #F0FFFF;
+	margin:0;
+	font-family: 'Raleway',sans-serif;
+	text-align: center;
+	margin-top: 20px;
+
+}

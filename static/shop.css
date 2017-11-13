@@ -1,0 +1,52 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		box-sizing: border-box;
+
+	}
+ul{
+	list-style-type: none;
+	display: flex;
+    flex-wrap: wrap;
+}
+body, html {
+    height: 100%;
+    margin:0px;
+}
+
+.shop-image{
+	background-image: url("images/shop/welcome.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 	height: 100%;
+ 	display: flex;
+ 	flex-direction:row-reverse;
+
+}
+.shop-box{
+	background-color: #eedaab;
+	height: 700px;
+	width: 40%;
+	display: flex;
+	flex-direction:row;
+}
+
+
+.icon p{
+	font-family: "Lucida Grande",Arial,sans-serif;
+	font-size:15px;
+	text-transform: uppercase;
+
+	text-align: center;
+
+
+}
+.icon li {
+    width: 170px;
+    text-align: center;
+    flex-grow:1;
+}

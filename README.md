@@ -8,9 +8,7 @@ The website the game is embedded in is designed and build by Elena (https://gith
 I wrote backend and authentication for the website in flask. 
 
 ## Team
-Elena - Front End and Webdesign 
-Amanda - managed the project
-Pankaja - Front End of old foyer (not in this repository) 
+Elena - Front End and Webdesign //
 me (Astrid) - Unity game, Back End, a bit of Front End 
 
 ## Play the Game

@@ -30,7 +30,7 @@ me (*Astrid*) - Unity game, Back End, Front End (old street page and old active 
 
 ## Play the Game
 <br>The game can be played on this Heroku site. (It takes quite a while to load...) <br>
-<br> https://agile-hollows-89034.herokuapp.com/street <br>
+<br> https://calm-shelf-49262.herokuapp.com/ <br>
 
 
 ## Others 

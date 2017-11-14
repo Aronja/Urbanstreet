@@ -1,7 +1,7 @@
 # Urbanstreet
 
 # Description
-A 3D plattform game, placed in London built with in unity 5.4.1f
+A 3D platform game, placed in London built with in unity 5.4.1f
 
 ## Tech
 The website the game is embedded in is designed and build by Elena (https://github.com/elebecca) 
